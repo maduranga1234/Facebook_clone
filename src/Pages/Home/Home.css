@@ -1,0 +1,12 @@
+
+
+#homeContent{
+    display: flex;
+    width: 100%;
+    background-color: rgb(217, 221, 224);
+   
+}
+
+/* ::-webkit-scrollbar {
+    display: none;
+  } */

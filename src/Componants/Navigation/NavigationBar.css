@@ -1,0 +1,116 @@
+
+
+.navBarContain{
+
+    height: 50px;
+    width: 100%;
+    background-color: rgb(190, 197, 194);
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+
+}
+
+.navBarLeft{
+    flex: 3;
+
+
+}
+
+.navBarCenter{
+    flex: 5;
+
+}
+
+.navBarRight{
+    width: 230px;
+    height: 50px;
+    position: absolute;
+    flex: 3;
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    top: 0;
+    right: 6%;
+    justify-content: space-evenly;
+    text-align: center;
+    
+}
+
+
+
+
+
+.icon {
+    width: 106px;
+    height: 52px;
+    object-fit: cover;
+    margin-right: 60px;
+   
+}
+
+
+.navBarCenter{
+    height: 60px;
+    width: 500px;
+    position: absolute;
+    left: 490px;
+    justify-content: space-evenly;
+    align-items: center;
+    display: flex;
+
+
+
+}
+
+.iconItem{
+    color: red;
+}
+
+.searchBar {
+    width: 0;
+    height: 46px;
+    background-color: rgb(217, 223, 224);
+    margin-left: 115px;
+    margin-top: -53px;
+    position: relative;
+    z-index: 8;
+}
+#searchInput{
+    width: 313px;
+    height: 43px;
+    margin-top: -2px;
+    position: absolute;
+    border-radius: 40px;
+    border-style: none;
+    font-family: Roboto Slab;
+    font-size: 20px;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    
+}
+
+
+.searchIcon{
+    margin-top: 11px;
+    margin-left: 15px;
+    position: absolute;
+    font-size: 26px;
+}
+
+.rightIcon{
+    margin-top: 10px;
+}
+
+
+#profileImg{
+    width: 48px;
+    height: 48px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-right: 8px;
+    cursor: pointer;
+    margin-top: 3px;
+} 
+
