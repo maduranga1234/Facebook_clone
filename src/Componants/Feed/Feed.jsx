@@ -1,10 +1,19 @@
 import React from 'react'
 import './feed.css'
+import Share from '../Share/Share'
+import Post from '../Post/Post'
 
 export default function Feed() {
   return (
     <div className='feedDiv'>
-    <h1>feed bar</h1>
+     <div className='feedWraper'>
+   
+
+      <Share/>
+      <Post/>
+
+   
+     </div>
     </div>
   )
 }
