@@ -74,7 +74,7 @@ export default function SideBar() {
 
         <button className='SliderBarButton'>Show more</button>
         <hr className='sliderBarHr'/>
-        <ul className='sliderBarFriendList'>
+        {/* <ul className='sliderBarFriendList'>
             <li className='slidbarFriend'> 
             <img className='slidbarFriendImg' src='\images\bleser.jpg'></img>
             <span className='friendName'>Maduranga Sadaruwan</span>
@@ -165,7 +165,7 @@ export default function SideBar() {
 
             </li>
             
-        </ul>
+        </ul> */}
 
      </div>
 
