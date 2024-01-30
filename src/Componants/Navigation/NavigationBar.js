@@ -10,6 +10,7 @@ import MessageOutlinedIcon from '@mui/icons-material/MessageOutlined';
 import NotificationsOutlinedIcon from '@mui/icons-material/NotificationsOutlined';
 import AppsOutlinedIcon from '@mui/icons-material/AppsOutlined';
 import { ForkLeft, Margin } from '@mui/icons-material';
+import { blue } from '@mui/material/colors';
 
 
 
@@ -19,12 +20,14 @@ export default function NavigationBar() {
     <div className='navBarContain'> 
 
     <div className='navBarLeft'>
-    <img src="\images\iconLogo.png" className='icon'></img>
+  
+
+ <FacebookRoundedIcon style={{ fontSize: 55}}  className='icons' />
 
     <div className='searchBar'>
 
       
-    <input placeholder='Search Peerhub' id='searchInput' ></input>
+    <input placeholder='Search Facebook' id='searchInput' ></input>
     <SearchIcon className='searchIcon'/>
 
     </div>

@@ -38,6 +38,30 @@ export const Posts=[
         comment:95,
     
     
-        }
+        },
+        {
+            id:3,
+            des:"I Love you",
+            photo:'/images/id03Profile.jpg',
+            date:"30 mins ago",
+            userId:3,
+            like:70,
+            comment:54,
+        
+        
+            },
+            {
+                id:4,
+                des:"My Hurt in see",
+                photo:'/images/id05Profile.jpg',
+                date:"17 mins ago",
+                userId:4,
+                like:80,
+                comment:2,
+            
+            
+                }
+
+
 
 ]
