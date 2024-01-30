@@ -3,3 +3,73 @@
  
     
 }
+
+.rightBarWrapper{
+    padding: 20px 20px 0 0;
+}
+
+.birthDayImage{
+    width: 40px;
+    height: 40px;
+    margin-top: 10px;
+    
+}
+
+.birthDayText{
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.birthDayContain{
+    display: flex;
+    align-items: center;
+}
+
+.addImage{
+    width: 100%;
+    border-radius: 10px;
+    margin: 30px 0;
+}
+
+.rightBarFriendLIst{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.rightBarFriend{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.rightBarTital{
+    margin-bottom: 20px;
+}
+.rightBarProfileImage{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.rightBarProfileImageContainer{
+    position: relative;
+}
+
+.online{
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: rgb(22, 224, 39);
+   margin-bottom: 20px;
+   margin-left: 10px;
+   position: absolute;
+   right: 0;
+   border: 2px solid white;
+
+   
+}
+
+.rightUserName{
+    font-weight: 500;
+    margin-left: 5px;
+}
