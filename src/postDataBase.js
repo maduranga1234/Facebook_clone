@@ -3,14 +3,26 @@ export const Users=[
      {
         id:1,
         profilePic:'/images/id02Profile.jpg',
-        userName:"Pasindu",
+        userName:"Pasindu lakshan",
 
      },
       
      {
         id:2,
         profilePic:'/images/id1Profile.jpg',
-        userName:"sasindu",
+        userName:"Sasindu sathsara",
+
+     },
+     {
+        id:3,
+        profilePic:'/images/id02Profile.jpg',
+        userName:"Anuda lakshitha",
+
+     },
+     {
+        id:4,
+        profilePic:'/images/id02Profile.jpg',
+        userName:"Tharindu lakshan",
 
      }
 ]
